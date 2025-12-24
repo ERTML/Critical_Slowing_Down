@@ -1,8 +1,7 @@
 ## 概述
 
-本项目基于临界慢化理论（Critical Slowing Down, CSD），提供用于处理时间序列栅格数据（如 NDVI、kNDVI）的 Python 脚本。
+本仓库基于临界慢化理论（Critical Slowing Down, CSD），提供用于处理时间序列栅格数据（如 NDVI、kNDVI）的 Python 脚本。
 通过季节–趋势分解提取残差，并计算时间自相关与方差，用于刻画系统接近临界转变时的动力学特征，从而识别生态系统稳定性变化及潜在的早期预警信号。
----
 
 ## 1. STL 残差提取 (`stl_resid.py`)
 
